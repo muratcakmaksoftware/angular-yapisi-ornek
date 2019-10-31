@@ -1,0 +1,31 @@
+<div *ngIf="headerState == 'user'; else elseBlock1">
+    <p>Home-header works!</p>
+    MENÜ
+    <div id="menu">
+        <ol>
+            <li><a [routerLink]="['/home']">Ana Sayfa >>></a></li>
+            <li><a [routerLink]="['/admin/home']">Admin Sayfası >>></a></li>
+            <li><a [routerLink]="['/about']">Hakkımda Sayfası >>></a></li>
+        </ol>
+    </div>
+</div>
+
+<ng-template #elseBlock1>
+    <div *ngIf="headerState == 'login'; else elseBlock2">        
+    </div>
+</ng-template>
+
+<ng-template #elseBlock2>
+    <div *ngIf="headerState == 'admin'">
+        <p>admin-header works!</p>
+        MENÜ
+        <div id="menu">
+            <ol>
+                <li><a [routerLink]="['/admin/home']">Anasayfa Admin>>></a></li>                
+                <li><a [routerLink]="['/admin/pages']">Admin Pages Sayfası>>></a></li>
+                <li><a [routerLink]="" (click)="cikisYap()">Logout</a></li>
+            </ol>
+        </div>
+        
+    </div>
+</ng-template>

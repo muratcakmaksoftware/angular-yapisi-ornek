@@ -1,0 +1,17 @@
+<div class="login-page">
+    <div class="form">        
+        
+        <div class="login-form">
+            <input type="text" placeholder="Kullanıcı Adı" [(ngModel)]="kadi" /> <!-- [ngModelOptions]="{standalone: true}"  form kullanılırsa html tag olarak eğer kontrol yapılmıcaksa kullanılır. -->
+            <input type="password" placeholder="Şifre" [(ngModel)]="sifre"/>
+            
+            <button (click)="girisYap()">Giriş Yap</button>            
+        </div>
+
+        <div style="margin-top:10px;" [style.display]="loginmsg != '' ? 'block' : 'none'" class="alert alert-warning" >
+            {{loginmsg}}
+        </div>
+
+        
+    </div>
+</div>

@@ -1,0 +1,3 @@
+<app-header [headerOptions]="header"></app-header>
+<router-outlet (activate)="componentAdded($event)" (deactivate)="componentRemoved($event)"></router-outlet>
+<app-footer [footerOptions]="footer"></app-footer>

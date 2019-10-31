@@ -1,0 +1,14 @@
+<div *ngIf="footerState == 'user'; else elseBlock1">
+    <p>Home-footer works!</p>
+</div>
+
+<ng-template #elseBlock1>
+    <div *ngIf="footerState == 'login'; else elseBlock2">        
+    </div>
+</ng-template>
+
+<ng-template #elseBlock2>
+    <div *ngIf="footerState == 'admin'">
+        <p>admin-footer works!</p>
+    </div>
+</ng-template>
