@@ -1,3 +1,7 @@
+#Siteyi ziyaret edip daha fazla detay alın:
+https://muratcakmaksoftware.blogspot.com/2019/10/angular-yaps.html
+https://muratcakmaksoftware.blogspot.com/2019/10/angular-api-ve-localstorage-guvenligi.html
+
 # Learnproject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
