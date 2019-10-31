@@ -1,4 +1,4 @@
-#Siteyi ziyaret edip daha fazla detay alın:
+# Siteyi ziyaret edip daha fazla detay alın:
 https://muratcakmaksoftware.blogspot.com/2019/10/angular-yaps.html
 https://muratcakmaksoftware.blogspot.com/2019/10/angular-api-ve-localstorage-guvenligi.html
 
